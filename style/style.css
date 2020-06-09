@@ -1,0 +1,59 @@
+.wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.matched {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.letters {
+  display: flex;
+  flex-wrap: wrap;
+}
+.letter {
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  text-align: center;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.country {
+  width: 250px;
+  height: 150px;
+  margin: 15px;
+  padding: 2px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.country__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+.country__capital {
+  margin: 5px 0;
+}
+.country__flag {
+  width: 50%;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
